@@ -75,7 +75,7 @@ namespace NadekoBot.Core.Services
             _log = LogManager.GetCurrentClassLogger();
             _creds = new BotCredentials();
 
-            _log.Info("Starting NadekoBot v" + StatsService.BotVersion);
+            _log.Info("Starting JARVIS v" + StatsService.BotVersion);
 
             _key = _creds.RedisKey();
             _redis = ConnectionMultiplexer.Connect("127.0.0.1");

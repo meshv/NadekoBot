@@ -24,7 +24,7 @@ namespace NadekoBot.Core.Services.Impl
         private readonly DateTime _started;
 
         public const string BotVersion = "2.17.3";
-        public string Author => "Kwoth#2560";
+        public string Author => "Tony Stark#0001";
         public string Library => "Discord.Net";
 
         public string Heap => Math.Round((double)GC.GetTotalMemory(false) / 1.MiB(), 2)

@@ -136,7 +136,7 @@ namespace NadekoBot.Modules.Utility
                 {
                     str.AppendLine(GetText("activity_line",
                         ++startCount,
-                        Format.Bold(kvp.Key.ToString()),
+                        Format.Bold(<@kvp.Key.ToString()>),
                         kvp.Value / _stats.GetUptime().TotalSeconds, kvp.Value));
                 }
 
